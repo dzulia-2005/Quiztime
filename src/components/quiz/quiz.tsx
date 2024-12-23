@@ -22,7 +22,7 @@ const Quiz: React.FC = () => {
     return (
       <div>
         <h2>შენი შედეგი: {score} / {questions.length}</h2>
-        <button onClick={() => window.location.reload()}>ზემოთ</button>
+        <button onClick={() => window.location.reload()}>თავიდან დაწყება</button>
       </div>
     );
   }
