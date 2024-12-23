@@ -29,10 +29,10 @@ const Quiz: React.FC = () => {
 
   return (
       <div>  
-         <h2>{questions[currentQuestion].question}</h2>
+         <h2 style={{color:"#191D63"}}>{questions[currentQuestion].question}</h2>
           <div style={{display:"flex" , flexDirection:"column" , gap:"10px"}}>
              {questions[currentQuestion].options.map((option) => (
-            <button key={option} onClick={() => handleAnswer(option)}>
+            <button style={{background:"#F4F3F6" , color:"#060710"}} key={option} onClick={() => handleAnswer(option)}>
               {option}
             </button>
             ))}
