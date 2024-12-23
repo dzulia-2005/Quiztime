@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { quiz } from "../../data/data"; // Adjust the path if necessary
+import { quiz } from "../../data/data"; 
 import QuestionCard from "../QuestionCard/QuestionCard";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import ResultCard from "../ResultCard/ResultCard";
